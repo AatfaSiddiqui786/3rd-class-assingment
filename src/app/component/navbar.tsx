@@ -46,18 +46,18 @@ export default function Navbar() {
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <div className="md:hidden mt-4 space-y-4">
-            <a href="/" className="block text-white text-lg hover:text-yellow-400">
+            <Link href="/" className="block text-white text-lg hover:text-yellow-400">
               Home
-            </a>
-            <a href="/about" className="block text-white text-lg hover:text-yellow-400">
+            </Link>
+            <Link href="/about" className="block text-white text-lg hover:text-yellow-400">
               About
-            </a>
-            <a href="/services" className="block text-white text-lg hover:text-yellow-400">
+            </Link>
+            <Link href="/services" className="block text-white text-lg hover:text-yellow-400">
               Services
-            </a>
-            <a href="/contact" className="block text-white text-lg hover:text-yellow-400">
+            </Link>
+            <Link href="/contact" className="block text-white text-lg hover:text-yellow-400">
               Contact
-            </a>
+            </Link>
           </div>
         )}
       </div>
