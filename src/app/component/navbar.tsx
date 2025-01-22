@@ -17,6 +17,7 @@ export default function Navbar() {
           <div className="text-white text-2xl font-bold">
             <Link href="/">MyWebsite</Link>
           </div>
+          
 
           {/* Desktop Navbar */}
           <div className="hidden md:flex space-x-8">
